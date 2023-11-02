@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif, system-ui;
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.chunk-1 {
+    background-image: linear-gradient(90deg, #222, #000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-gradient {
+    /** TEXT GRADIENT */
+    color: transparent;
+    background-image: -webkit-linear-gradient(
+        45deg,
+        #bafa66 48%,
+        #218410 30%,
+        #41f58a 33%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+hr {
+    border: 3px solid gray;
+    border-radius: 1000px;
+    margin: 20% 0;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+    gap: 0 20%;
+}
+
+.img {
+    width:100%;
+    background-color: red;
+    color: #150;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    aspect-ratio: 1;
+}
